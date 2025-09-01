@@ -22,7 +22,7 @@
 Clone the repository and run the setup script:
 
 ```bash
-git clone https://github.com/AkshitBanotra/power-cli
+git clone https://github.com/AkshitBanotra/power-cli.git
 cd power-cli
 chmod +x ./setup.sh
 ./setup.sh
