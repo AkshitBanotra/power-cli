@@ -28,8 +28,8 @@ chmod +x ./setup.sh
 ./setup.sh
 ```
 
-* The setup script will move the script to `.config/`, set executable permissions.
-* After setup, run `power-cli` from anywhere.
+* The setup script will move the script to `.config/`, set executable permission.
+* After setup, you can run power-cli directly in the terminal.
 
 ## Usage
 
