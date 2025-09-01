@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+sound_path="${HOME}/myscripts/sounds/Positive.ogg"
+
+##################################################
+
+clear
+read -p "Power-profile script [ 'p' for performance | 'b' for balanced | 's' for power-saver ]
+>> " option
+echo ""
+if [[ ${option} == p ]] || [[ option == P ]];then
+	powerprofilesctl set performance
+	sleep 2.5s
+	echo ""
+	echo ""
+	echo "Performance mode activated."
+	notify-send "Power Mode" "Performance mode activated."
+	paplay ${sound_path}
+elif [[ ${option} == b ]] || [[ option == B ]];then
+	powerprofilesctl set balanced
+	sleep 2.5s
+	echo ""
+	echo ""
+	echo "Balanced mode activated."
+	notify-send "Balance Mode activated."
+	paplay ${sound_path}
+elif [[ ${option} == s ]] || [[ option == S ]];then
+	powerprofilesctl set power-saver
+	sleep 2.5s
+	echo ""
+	echo ""
+	echo "Power Saver mode activated."
+	notify-send "Power Saver Mode activated."
+	paplay ${sound_path}
+else
+	echo ""
+	echo "Error: Invalid input detected."
+fi
