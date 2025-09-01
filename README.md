@@ -1,6 +1,6 @@
 # Power-CLI
 
-**Power-CLI** is a simple Bash script to manage your Linux system’s power profiles directly from the terminal. Switch between **Performance, Balanced, and Power Saver** modes quickly, with notifications and sound alerts.
+**Power-CLI** is a simple Bash script to manage your Linux system’s power profiles directly from the terminal. Switch between **Performance, Balanced, and Power Saver** modes quickly, with notifications and sound alerts. I originally built it for my own use — but thought it might be helpful for others too.
 
 ## Features
 
