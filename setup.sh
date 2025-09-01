@@ -16,7 +16,7 @@ sleep 0.2s
 
 source "${HOME}/.bashrc"
 
-rm -r "${HOME}/power-cli/" && cd ~/
+cd ~/ && rm -rf ~/power-cli
 
 echo ""
 
