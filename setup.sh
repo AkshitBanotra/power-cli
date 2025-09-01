@@ -2,7 +2,7 @@
 
 mkdir -p "${HOME}/.config/power-cli"
 
-mv ${HOME}/myscripts/* "${HOME}/.config/power-cli/"
+mv ${HOME}/power-cli/* "${HOME}/.config/power-cli/"
 
 sleep 0.3s
 
