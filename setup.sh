@@ -16,7 +16,7 @@ sleep 0.2s
 
 source "${HOME}/.bashrc"
 
-rm -r "${HOME}/myscripts/" && cd ~/
+rm -r "${HOME}/power-cli/" && cd ~/
 
 echo ""
 
