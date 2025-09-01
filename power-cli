@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sound_path="${HOME}/myscripts/sounds/Positive.ogg"
+sound_path="${HOME}/.config/power-cli/sounds/Positive.ogg"
 
 ##################################################
 
